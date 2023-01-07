@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*Header Section*/
+header{
+    background-color: #BFC4C4;
+    background-image: url('images/banner/banner2.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-content{
+    text-align: right;
+    margin-right: 230px;
+}
+.benner-title{
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    padding-top: 200px;
+}
+.benner-desciption{
+    color: #414141;
+    margin-bottom: 20px;
+}
+button{
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.banner-btn{
+    color: #fff;
+    font-size: 20px;
+    background-color: #F15B22;
+}
+/* Main Section */
+.previous-contant{
+    display: flex;
+    gap: 20px;
+    margin: 100px 200px 100px;
+}
+.my-contant{
+    margin-top: 200px;
+}
+.section-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #151414;
+}
+.previous-description{
+    color: #414141;
+    margin-bottom: 20px;
+}
+ul li{
+    list-style-type: none;
+    color: #414141;
+}
+ul li i{
+    margin-right: 10px;
+    color: #16D887;
+}
+.my-achivement{
+    margin: 100px 200px;
+}
+.achivement-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.achive-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.achive-img{
+    width: 50px;
+}
+.achive-title{
+    font-size:25px;
+    font-weight: 800;
+    color: #151414;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.achive-dec{
+    color: #757373;
+    font-size: 20px;
+    font-weight: 600; 
+}
+.my-plan{
+    margin: 0 200px;
+}
+.my-plan .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.plan-img{
+    width: 80px;
+    height: 80px;
+}
+.plan-title{
+    font-size:25px;
+    font-weight: 800;
+    color: #151414;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plan-dec{
+    color: #757373;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.mindset-content{
+    height: 300px;
+    background: linear-gradient(to right, #f15d22d3, #f15d2217), url(images/watch.png);
+    margin: 100px 200px;
+    border-radius: 10px;
+}
+.mindset-body{
+    padding: 60px 400px 60px 70px;
+}
+.minset-title{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.mindset-btn{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+/* Footer Section */
+footer{
+    background-color: #151414;
+    height: 500px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.future{
+    margin-top: 100px;
+    width: 450px;
+}
+.future-tilte{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 800;
+}
+.future-dec{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.subscribe{
+    margin-top: 100px;
+}
+footer .footer-content a{
+    text-decoration: none;
+}
+.email{
+    margin-bottom: 10px;
+}
+.footer-email, .footer-phone{
+    color: #FFFFFF;
+}
+.social-icon{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.subscribe{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.footer-email-input{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    background: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-btn{
+    padding: 20px 35px;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+}
